@@ -10,9 +10,10 @@ const projects = [
   {
     title: 'Personal Website Template',
     technologies: ['React.js', 'HTML', 'CSS'],
-    summary: 'Developed a dynamic dashboard for tracking employer hiring trends, equiped with google authentication and role based access',
-    // screenshot: 'njit_hiring_outcomes_tracker_ss.png',
-    github: 'https://github.com/',
+    summary: 'THIS PROJECT. A personal website template built using React.js, HTML, and CSS.',
+    screenshot: 'personal_website_template_ss.png',
+    github: 'https://github.com/KoustubhSahu/Personal-Website-Template',
+    liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
   },
   {
     title: "QR Code Generator",

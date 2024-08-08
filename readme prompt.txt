@@ -1,12 +1,20 @@
 Help me in writing readme and license for my project, Repo name is "Personal Website Template"
+I used react.js, html, css, js for this web app. 
+add other relevant sections like License and technology and other things to it. 
+
+Create an index for this readme as this is gonna be too long.
+Organise it very nicely, so that it looks good. 
+Make it look lively and attractive. 
+
+I am not sure which license to use, I guess MIT license should be fine as this is meant for others to use and they cna use it in any way they like. So mention that in the lisence section as well.
 
 I created a personal website template and I am filing out demo data  in it , like fake name designation projects and so on, It is mainly focused on computer science students, fresher, software professional, data professional, and such people, but people from other fields are welcome to use this template, 
 
-Below I will note down what changes you need to make , and you can put it as instruction on how to use it, 
+Below is all the content of the readme file I can think of, you need to structure it better and make it look good. below I talk about the steps on how to personalise this project and how to host it in github. I have also added some of the useful websites which can be helpful in creating this website. When I talk about those websites in the description or instructions, mentions that they can read more about it below, and link it. Add you own explanation where needed, for example for the helpfull websites or github deployment.  
 
 
 Changes in ./public folder 
--Website icon and Website title
+-Website icon and Website title (./public/index.html)
 Here you would need to have a profile photo or your personal logo which will be your website icon. In this template we are using avatar.png as a placeholder, you can change it to have a more personalised icon. TO change it paste the image in ./public folder, adn then inside index.html you can reference that image in line 6. 
 While inside index.html you can also change the website title to have a more suitable title.
 
@@ -107,7 +115,40 @@ This is an important change, as react has a special way of inline styling. Html 
 once you do this, you are good to go,
 with these steps you have your own personal website, and you can showcase it. you can host this website in github itself. 
 
-Hosting your React app in github,
+Hosting your React app in github:
+
+You can visit "https://create-react-app.dev/docs/deployment/#github-pages" to see the official guide to host react app using gh-pages, or you can follow the following detailed steps which explains the same. 
+
+Step 1: Add homepage to package.json
+first we need to add the following to package.json,
+  "homepage": "https://myusername.github.io/my-app",
+where "myusername" is your github username and "my-app" is the name of your repo
+Replace the existing homepage link ("https://KoustubhSahu.github.io/Personal-Website-Template") with your link
+
+Step 2: Ensuring gh-pages is installed
+after this you need to gh-pages library installed in your project, if you followed thi readme file and did a "npm i" at teh start you shouwl already ahave this, but if you don't you can always install it now by the command 
+
+"npm install --save gh-pages"
+
+Step 3: Deploy the site by running npm run deploy
+Commit all your changes and push the lates code to github. 
+Now you need to run the command 
+npm run deploy
+
+to deploy teh app in github. 
+
+Ste 4: Making sure Github pages use gh-pages
+Go to your github repository, 
+go to settings,
+select pages from the menu on the left, 
+Here under branch github-pages should be selected, if for some reason some other branch is selected, change it to gh-pages.
+
+
+
+and just like that you have created and hosted your own personal website. Congratulations.🥳
+
+
+NOTE: It might take a few minutes for the change to be reflected and the link to work. 
 
 
 
@@ -139,4 +180,7 @@ Similar to codepen, but only better. Here you can test out React apps. You can e
 
 https://formspree.io/
 We use this for our contact form, this service is free and helps you to get emails notification when someone fills out a form to reach you out.
-All you can to do is create an account, create a form, and then copy the end point of your form and paste it as action attribute of form tag in Contact.js. It is wonderfull tool again. 
+All you can to do is create an account, create a form, and then copy the end point of your form and paste it as action attribute of form tag in Contact.js. It is wonderful tool again. 
+
+https://crop-circle.imageonline.co/#circlecropresult
+Usefull in cropping images in circle. Can be used for icons if necessary.
