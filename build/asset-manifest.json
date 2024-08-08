@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website-Template/static/css/main.cd60895d.css",
-    "main.js": "/Personal-Website-Template/static/js/main.7c866544.js",
+    "main.js": "/Personal-Website-Template/static/js/main.08c5c612.js",
     "static/js/638.a9b48a89.chunk.js": "/Personal-Website-Template/static/js/638.a9b48a89.chunk.js",
     "static/js/58.1ce3718f.chunk.js": "/Personal-Website-Template/static/js/58.1ce3718f.chunk.js",
     "static/js/763.0ac302a3.chunk.js": "/Personal-Website-Template/static/js/763.0ac302a3.chunk.js",
@@ -9,12 +9,7 @@
     "static/js/363.e3063674.chunk.js": "/Personal-Website-Template/static/js/363.e3063674.chunk.js",
     "static/js/893.d1521e15.chunk.js": "/Personal-Website-Template/static/js/893.d1521e15.chunk.js",
     "static/js/155.9babd551.chunk.js": "/Personal-Website-Template/static/js/155.9babd551.chunk.js",
-    "static/media/njit_hiring_outcomes_tracker_ss.png": "/Personal-Website-Template/static/media/njit_hiring_outcomes_tracker_ss.93559088542ecb677b55.png",
-    "static/media/ice_n_fire_ss.png": "/Personal-Website-Template/static/media/ice_n_fire_ss.ab9aed260fa4dc6161b6.png",
-    "static/media/translate_call_ss.png": "/Personal-Website-Template/static/media/translate_call_ss.6b170fa64ab355a875c4.png",
-    "static/media/cfn_ss.png": "/Personal-Website-Template/static/media/cfn_ss.e57922016505176f6700.png",
-    "static/media/njit_student_outcomes_dashboard_ss.png": "/Personal-Website-Template/static/media/njit_student_outcomes_dashboard_ss.19d1de0bd0f40fe4ec6e.png",
-    "static/media/todo_list_ss.png": "/Personal-Website-Template/static/media/todo_list_ss.ad303ae6426adffeba7c.png",
+    "static/media/personal_website_template_ss.png": "/Personal-Website-Template/static/media/personal_website_template_ss.4a936b9018634f463a97.png",
     "static/media/avatar.png": "/Personal-Website-Template/static/media/avatar.37a4f5d651303a6fb5f0.png",
     "static/media/postgre-sql.svg": "/Personal-Website-Template/static/media/postgre-sql.9aed68683d15cfc3c3fd.svg",
     "static/media/mysql.svg": "/Personal-Website-Template/static/media/mysql.16c78b724e24683c37fd.svg",
@@ -41,10 +36,10 @@
     "static/media/html.svg": "/Personal-Website-Template/static/media/html.0107c93943a8f415b5db.svg",
     "static/media/javascript-extra.svg": "/Personal-Website-Template/static/media/javascript-extra.b879f838faf1cb951d1c.svg",
     "main.cd60895d.css.map": "/Personal-Website-Template/static/css/main.cd60895d.css.map",
-    "main.7c866544.js.map": "/Personal-Website-Template/static/js/main.7c866544.js.map"
+    "main.08c5c612.js.map": "/Personal-Website-Template/static/js/main.08c5c612.js.map"
   },
   "entrypoints": [
     "static/css/main.cd60895d.css",
-    "static/js/main.7c866544.js"
+    "static/js/main.08c5c612.js"
   ]
 }

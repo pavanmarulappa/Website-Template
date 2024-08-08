@@ -35,17 +35,13 @@ Welcome to the Personal Website Template! This web app is designed to help you c
 - **HTML**: For the structure of the web pages.
 - **CSS**: For styling the application.
 - **JavaScript**: For interactivity and functionality.
-- **Node.js**: Backend runtime environment.
-- **Express.js**: Web application framework.
-- **Chart.js**: For creating dynamic charts.
-- **PostgreSQL**: Database for storing and managing data.
+- **Node.js**: Required to run the development server for the frontend application.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js (v12.x or later)
-- npm (v6.x or later)
 
 ### Installation
 
@@ -76,7 +72,7 @@ Welcome to the Personal Website Template! This web app is designed to help you c
 
 - **Website Icon and Title** (`./public/index.html`)
     - Change the profile photo or logo by replacing `avatar.png` in the `./public` folder and update the reference in line 6 of `index.html`.
-    - Update the website title in `index.html`.
+    - Update the website title in `index.html` at line 9.
 
 ### Changes in the `./src` Folder
 
