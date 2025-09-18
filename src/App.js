@@ -31,7 +31,7 @@ const Home = () => (
             Hi, I'm Template Man...!
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
           </p>
           
           <Connect linkedin="http://www.linkedin.com" github="https://github.com" contact="contact"
