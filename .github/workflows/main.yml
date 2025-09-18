@@ -1,0 +1,28 @@
+---
+name: Deploy to ASW S3
+on:
+  push:
+    branch:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Nodejs Setup
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ secrets.node_version }}
+      - name: Dependency installation
+        run: npm install
+      - name: app build
+        run: npm run build
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-north-1
+      - name: Deploy to AWS S3
+        run: aws s3 sync build s3://applicationdeploytos3 --delete
